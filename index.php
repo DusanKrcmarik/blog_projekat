@@ -16,12 +16,13 @@
 
     <!-- Custom styles for this template -->
     <link href="styles/blog.css" rel="stylesheet">
+    <link href="styles/styles.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 
 <?php
-include("header.php");
+    include "header.php" ;
 
 ?>
 
@@ -98,7 +99,7 @@ include("header.php");
         </div><!-- /.blog-main -->
 
         <?php
-            include("sidebar.php");
+            include "sidebar.php" ;
         ?>
 
     </div><!-- /.row -->
@@ -106,7 +107,7 @@ include("header.php");
 </main><!-- /.container -->
 
 <?php
-    include("footer.php");
+    include "footer.php";
 ?>
 </body>
 </html>

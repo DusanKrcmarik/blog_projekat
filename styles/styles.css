@@ -1,0 +1,20 @@
+html {
+   font-size: 16px;
+}
+
+a, h1, h2 {
+   color: #b34848;
+   text-decoration: none;  
+}
+
+ a:hover {
+       color: #b34848
+;
+       text-decoration: underline;
+       cursor: pointer;
+}
+header .blog-masthead{
+        background-color: #b34848;
+       text-decoration: underline;
+       cursor: pointer;
+}
