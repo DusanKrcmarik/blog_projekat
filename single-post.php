@@ -70,7 +70,8 @@ include"header.php";
        <div class="col-sm-8 blog-main">
             
 
-           <div class="blog-post">
+           <div 
+           class="blog-post">
            <a href="#" <h2 class="blog-post-title"><?php echo $post['title'] ?></h2> </a>
                 <p> <?php echo $post['created_at'] ?> </p>
            <p class="blog-post-meta"> <?php echo $post['body'] ?></p>
@@ -87,7 +88,8 @@ include"header.php";
 <label>Add comments</label><br>
 <input type="hidden" name="post_id" value="<?php echo $_GET['post_id'] ?>" ><br><br>
 <button type="Submit">Submit</button>
-
+<br></br>
+<br></br>
 </form>
 
     <div class="container">
@@ -100,7 +102,9 @@ foreach ($comments as $comment){
 
 ?>
 <li><p><?php echo $comment['author'] ?></p></li>
-<p><?php echo $comment['text'] ?></p><hr>
+<p><?php echo $comment['text'] ?></p>
+<button>Delete comments</button>
+<hr>
 
 
 <?php
