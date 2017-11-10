@@ -18,3 +18,7 @@ header .blog-masthead{
        text-decoration: underline;
        cursor: pointer;
 }
+
+.hidden {
+    display:none;
+}

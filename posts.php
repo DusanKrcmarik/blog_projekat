@@ -71,7 +71,7 @@ include"header.php";
    ?>
 
            <div class="blog-post">
-           <a href="#" <h2 class="blog-post-title"><?php echo $post['title'] ?></h2> </a>
+           <a href="single-post.php?post_id=<?php echo $post['id'] ?>" <h2 class="blog-post-title"><?php echo $post['title'] ?></h2> </a>
                 <p> <?php echo $post['created_at'] ?> </p>
            <p class="blog-post-meta"> <?php echo $post['body'] ?> <a href="#">Dusan Krcmarik</a></p>
 
