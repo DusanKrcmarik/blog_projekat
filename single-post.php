@@ -77,6 +77,18 @@ include"header.php";
            <p class="blog-post-meta"> <?php echo $post['author'] ?></p>
 
            </div><!-- /.blog-post -->
+<form action="create-comments.php" method="POST">
+
+
+<label >Autor</label>
+<input type="text" name="author"><br>
+<label>Comment</label>
+<input type="text" name="comments"><br>
+<label>Add comments</label><br>
+<input type="hidden" name="post_id" value="<?php echo $_GET['post_id'] ?>" ><br><br>
+<button type="Submit">Submit</button>
+
+</form>
 
     <div class="container">
     <button id="button" type=button class="btn btn=default" onclick=toogleButton()>Hide comments</button>
@@ -130,5 +142,4 @@ include "footer.php";
 </script>
 </body>
 </html>
-
 
